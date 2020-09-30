@@ -1,0 +1,124 @@
+.container{
+    margin-top:20px;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 999;
+    background-color: #fff;
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+body{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#brand{
+    margin-bottom: 20px;
+}
+
+#brand a{
+color: #333;
+}
+
+#brand a:hover{
+    color: #333;
+    text-decoration: none;
+}
+
+nav li {
+    position: relative;
+    white-space: nowrap;
+    list-style: none;
+    display: inline-block;
+    margin-left:10px;
+}
+
+nav li a{
+    color: #333;
+}
+
+nav li a:hover{
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#result {
+    position: absolute;
+    width: 100%;
+    max-width:870px;
+    cursor: pointer;
+    overflow-y: auto;
+    max-height: 400px;
+    box-sizing: border-box;
+    z-index: 1001;
+}
+
+#query-form{
+    width: 100%;
+}
+
+.head-title{
+    margin-top:10px;
+    margin-bottom:25px;
+}
+
+ #query-form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    width: 80%;
+}
+
+#query-form button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #2196F3;
+    border-left: none;
+    cursor: pointer;
+}
+  
+#brand span{
+      color: #2196F3;
+}
+table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table th {
+    width: 300px !important;
+}
+
+table thead th {
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: #A0A0A0;
+}
+
+table tbody td {
+    font-weight:500 !important;
+    font-size: 24px;
+    color: #333333;
+}
+
+table a {
+    color: #5B8AD8 !important;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
